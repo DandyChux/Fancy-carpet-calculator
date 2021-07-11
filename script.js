@@ -43,4 +43,7 @@ to see how it changes the visualization!
 */
 
 // Your code here
-showCarpetArea(1, 1, 1);
+width = Number(prompt("Enter width in feet: "));
+length = Number(prompt("Enter length in feet: "));
+area = width * length;
+showCarpetArea(width, length, area);
